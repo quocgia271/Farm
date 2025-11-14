@@ -1,0 +1,5 @@
+Name,Id,ProductId,GrowthTimeMinutes,MaxHarvestTimes,BuyPrice,MinAmountToBuy,Wholesale,PriceBuyWholesale
+Carrot,carrot_seed,carrot,1,1,30,1,false,0
+Broccoli,broccoli_seed,broccoli,15,40,50,1,false,0
+Cauliflower,cauliflower_seed,cauliflower,5,20,0,10,true,400
+Dairy Cow,cow,milk,10,2,100,1,false,0

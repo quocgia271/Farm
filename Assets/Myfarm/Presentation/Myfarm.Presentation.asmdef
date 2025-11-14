@@ -1,0 +1,21 @@
+{
+    "name": "Myfarm.Presentation",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4f2d1c9af36a88b459f20a4e10be0c1e",
+        "GUID:7e73dccab21d0534b8c06225523b1cd0",
+        "GUID:2292ecf85bf2ba84ba58f771e98eb733",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "LeanTween.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

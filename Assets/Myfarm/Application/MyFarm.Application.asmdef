@@ -1,0 +1,16 @@
+{
+    "name": "MyFarm.Application",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4f2d1c9af36a88b459f20a4e10be0c1e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
