@@ -1,3 +1,6 @@
+### video gameplay
+https://drive.google.com/drive/folders/1n_ut427G4Umsg74nOpl4L1oztloFr1Ec?usp=drive_link
+
 Hệ thống Nông trại:
 
 Trồng trọt các loại cây (Cà rốt, Bông cải xanh, v.v.) và chăn nuôi (Bò).
