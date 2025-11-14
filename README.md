@@ -118,3 +118,30 @@ QUÁ TRÌNH THỰC HIỆN
 + ngày 4 dùng unit test kiểm tra tầng 1 và 2 
 + ngày 5 gắn ui presentation vào
 + ngày 6 7 tiếp tục hoàn thiện game và tìm thêm các trường hợp khác nhau để test game .
+
+Hạn chế & Nâng cấp Tương lai
+Dự án có nền tảng Clean Architecture vững chắc, nhưng có thể được cải thiện cho quy mô sản phẩm thực tế:
+
+Hiệu năng (Performance):
+
+Hạn chế: Sử dụng Instantiate/Destroy nhiều cho UI và đối tượng game, có thể gây giật lag khi game mở rộng.
+
+Nâng cấp: Tối ưu hóa bằng Object Pooling (tái sử dụng đối tượng) và UI Virtualization (cho các danh sách dài).
+
+Quản lý Tài nguyên (Asset Management):
+
+Hạn chế: Đang dùng API Resources.Load cũ để tải Prefabs và Configs.
+
+Nâng cấp: Chuyển sang hệ thống Addressables để tải tài nguyên bất đồng bộ (giảm lag, giảm thời gian tải game) và hỗ trợ cập nhật nội dung (DLC) mà không cần build lại game.
+
+Dữ liệu (Data):
+
+Hạn chế: File save .json (text) dễ bị người dùng chỉnh sửa (hack vàng).
+
+Nâng cấp: Mã hóa (Encrypt) file save hoặc chuyển sang dùng cơ sở dữ liệu local như SQLite để tăng cường bảo mật và hiệu năng truy vấn.
+
+Kiểm thử (Testing):
+
+Hạn chế: Đã có Unit Test cho tầng Domain/Application, nhưng chưa có test tự động cho tầng Presentation (UI).
+
+Nâng cấp: Bổ sung Integration Tests (Play Mode) để xác thực logic của UI (ví dụ: nhấn nút Nâng cấp có thực sự cập nhật Text Vàng không).
