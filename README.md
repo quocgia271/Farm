@@ -13,7 +13,7 @@ Hệ thống Kinh tế:
 
 Mua/Bán vật phẩm với giá được cấu hình từ file config.
 
-Hỗ trợ Bán sỉ (Wholesale): Logic cửa hàng tự động kiểm tra và làm tròn số lượng mua tối thiểu (ví dụ: Dâu tây).
+Hỗ trợ Bán sỉ (Wholesale): Logic cửa hàng tự động kiểm tra và làm tròn số lượng mua tối thiểu (ví dụ: CauliFlower).
 
 Hệ thống Công nhân (Worker AI):
 
