@@ -11,7 +11,11 @@ https://drive.google.com/drive/folders/1n_ut427G4Umsg74nOpl4L1oztloFr1Ec?usp=dri
 * **Chuột giữa (Hold Middle Mouse):** Kéo để di chuyển Camera (Pan).
 * **Con lăn chuột (Scroll Wheel):** Phóng to / Thu nhỏ (Zoom).
 
+
+
+
 🌟 Tính năng Chính
+
 🌱 Hệ thống Nông trại (Farming System)
 Trồng trọt các loại cây (Cà rốt, Bông cải xanh, v.v.) và chăn nuôi (Bò).
 
