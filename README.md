@@ -1,5 +1,13 @@
 ### video gameplay
 https://drive.google.com/drive/folders/1n_ut427G4Umsg74nOpl4L1oztloFr1Ec?usp=drive_link
+## 🛠️ Cài đặt & Yêu cầu Hệ thống
+
+## 🎮 Hướng dẫn Điều khiển
+* **Chuột trái (Left Click):**
+    * Tương tác với UI (Mua, Bán, Nâng cấp).
+    * Tương tác với ô đất (Mở khóa, Gieo hạt, Thu hoạch, Dọn dẹp cây hỏng).
+* **Chuột giữa (Hold Middle Mouse):** Kéo để di chuyển Camera (Pan).
+* **Con lăn chuột (Scroll Wheel):** Phóng to / Thu nhỏ (Zoom).
 
 Hệ thống Nông trại:
 
