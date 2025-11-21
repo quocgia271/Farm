@@ -1,6 +1,8 @@
+🌾 MyFarm - Unity Clean Architecture Showcase
+MyFarm là dự án game mô phỏng nông trại được xây dựng trong 7 ngày, tập trung trình diễn kỹ thuật lập trình với Clean Architecture, Domain-Driven Design (DDD) và hệ thống Worker AI.
+
 ### video gameplay
 https://drive.google.com/drive/folders/1n_ut427G4Umsg74nOpl4L1oztloFr1Ec?usp=drive_link
-## 🛠️ Cài đặt & Yêu cầu Hệ thống
 
 ## 🎮 Hướng dẫn Điều khiển
 * **Chuột trái (Left Click):**
@@ -9,21 +11,21 @@ https://drive.google.com/drive/folders/1n_ut427G4Umsg74nOpl4L1oztloFr1Ec?usp=dri
 * **Chuột giữa (Hold Middle Mouse):** Kéo để di chuyển Camera (Pan).
 * **Con lăn chuột (Scroll Wheel):** Phóng to / Thu nhỏ (Zoom).
 
-Hệ thống Nông trại:
-
+🌟 Tính năng Chính
+🌱 Hệ thống Nông trại (Farming System)
 Trồng trọt các loại cây (Cà rốt, Bông cải xanh, v.v.) và chăn nuôi (Bò).
 
 Quản lý vòng đời đầy đủ: Trồng (Growing) -> Sẵn sàng (Ready) -> Hỏng (Spoiled).
 
 Cơ chế "Hỏng": Nếu không thu hoạch sản phẩm cuối cùng sau 1 giờ, vật phẩm và cây trồng sẽ bị hỏng và phải dọn dẹp.
 
-Hệ thống Kinh tế:
+💰 Hệ thống Kinh tế (Economy)
 
 Mua/Bán vật phẩm với giá được cấu hình từ file config.
 
 Hỗ trợ Bán sỉ (Wholesale): Logic cửa hàng tự động kiểm tra và làm tròn số lượng mua tối thiểu (ví dụ: CauliFlower).
 
-Hệ thống Công nhân (Worker AI):
+👷 Hệ thống Công nhân (Worker AI)
 
 Công nhân tự động tìm và di chuyển đến các lô đất đã sẵn sàng để thu hoạch.
 
@@ -31,7 +33,7 @@ Mỗi hành động (ví dụ: thu hoạch) tốn một khoảng thời gian (c�
 
 Quản lý trạng thái đầy đủ (Idle, MovingToTarget, Working, MovingHome).
 
-Nâng cấp & Mở rộng:
+📈 Nâng cấp & Tiến trình (Progression)
 
 Thuê thêm công nhân.
 
@@ -160,7 +162,7 @@ Refactor Code: Rà soát và làm sạch code, xử lý các trường hợp ngo
 Documentation: Viết tài liệu hướng dẫn (README), bổ sung comment code và chuẩn bị build demo.
 
 
-Hạn chế & Nâng cấp Tương lai
+🚀 Hạn chế & Hướng phát triển
 Dự án có nền tảng Clean Architecture vững chắc, nhưng có thể được cải thiện cho quy mô sản phẩm thực tế:
 
 Hiệu năng (Performance):
