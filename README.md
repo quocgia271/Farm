@@ -112,12 +112,45 @@ Việc này đảm bảo logic cốt lõi của game luôn chạy đúng, độc
 
 
 
-QUÁ TRÌNH THỰC HIỆN
-+ 2 Ngày đầu tiên phân tích yêu cầu đề bài tìm ra mô hình phù hợp
-+ Ngày 3 viết code Domain và Application cơ bản và infrastructue
-+ ngày 4 dùng unit test kiểm tra tầng 1 và 2 
-+ ngày 5 gắn ui presentation vào
-+ ngày 6 7 tiếp tục hoàn thiện game và tìm thêm các trường hợp khác nhau để test game .
+📅 Quá trình Thực hiện Dự án (Development Process)
+Dự án được triển khai trong vòng 7 ngày với các giai đoạn cụ thể như sau:
+
+Giai đoạn 1: Phân tích & Thiết kế (Ngày 1 - 2)
+
+Phân tích kỹ lưỡng yêu cầu đề bài (Gameplay, Economy, AI Worker).
+
+Xác định kiến trúc phần mềm phù hợp: Quyết định sử dụng Clean Architecture kết hợp Domain-Driven Design (DDD) để tách biệt logic game khỏi Unity Engine.
+
+Giai đoạn 2: Xây dựng Core Logic (Ngày 3)
+
+Triển khai tầng Domain: Định nghĩa các Entities (Farm, Worker, Plot) và Value Objects.
+
+Triển khai tầng Application: Viết các Use Cases chính (Harvest, BuyItem, HireWorker).
+
+Xây dựng tầng Infrastructure: Cài đặt các repositories lưu trữ dữ liệu (Json) và hệ thống load config (CSV).
+
+Giai đoạn 3: Kiểm thử Đơn vị (Ngày 4)
+
+Viết Unit Tests để kiểm chứng độ chính xác của tầng Domain và Application.
+
+Đảm bảo các logic quan trọng (tính tiền, thời gian mọc cây, xử lý offline) hoạt động đúng trước khi gắn vào Unity.
+
+Giai đoạn 4: Tích hợp UI & Presentation (Ngày 5)
+
+Xây dựng tầng Presentation trong Unity: Tạo các Prefabs, UI Panels.
+
+Kết nối View (FarmPlotView, UIManager) với Use Cases thông qua GameManager.
+
+Cài đặt hệ thống Sự kiện (EventNotifier) để cập nhật giao diện tự động.
+
+Giai đoạn 5: Hoàn thiện & Tối ưu (Ngày 6 - 7)
+
+Polish Game: Tinh chỉnh trải nghiệm người dùng, thêm hiệu ứng hình ảnh (LeanTween) cho animal và phản hồi UI.
+
+Refactor Code: Rà soát và làm sạch code, xử lý các trường hợp ngoại lệ (Edge Cases).
+
+Documentation: Viết tài liệu hướng dẫn (README), bổ sung comment code và chuẩn bị build demo.
+
 
 Hạn chế & Nâng cấp Tương lai
 Dự án có nền tảng Clean Architecture vững chắc, nhưng có thể được cải thiện cho quy mô sản phẩm thực tế:
